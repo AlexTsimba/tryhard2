@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+.OathJar_header {
+
+    
+    height: 100vh;
+    background-color: #fffef9;
+    background-image: linear-gradient(to top, #ffffff 0%, #fff9df 100%)
+}
+
+/* */
+.Header__cloud {
+    display: inline-flex;
+    justify-content: center;
+    width: 286px;
+    height: 63px;
+    background: url(../img/holder.png) no-repeat center;
+    color: #0d3e60;
+    margin-top: 5%;
+    margin-left: 7%;
+
+}
+
+.Header__cloud__text-item1 {
+    margin-top: 15px;
+}
+
+.Header__cloud__text-item2 {
+    margin-top: 15px;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.Header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+
+.Header__promises-counter__item1 {
+    width: 68px;
+    height: 19px;
+    color: #0d3e60;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19.25px;
+}
+
+.Header__promises-counter__item2 {
+    width: 73px;
+    height: 18px;
+    color: #0d3e60;
+    font-size: 16px;
+    font-weight: 300;
+
+}
