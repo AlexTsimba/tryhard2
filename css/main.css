@@ -1,13 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+
 }
 
 
 .OathJar_header {
-
-    
-    height: 100vh;
     background-color: #fffef9;
     background-image: linear-gradient(to top, #ffffff 0%, #fff9df 100%)
 }
@@ -20,7 +18,7 @@ body {
     height: 63px;
     background: url(../img/holder.png) no-repeat center;
     color: #0d3e60;
-    margin-top: 5%;
+    margin-top: 60px;
     margin-left: 7%;
 
 }
@@ -60,5 +58,100 @@ body {
     color: #0d3e60;
     font-size: 16px;
     font-weight: 300;
+}
+
+.Hero-page {
+
+}
+
+.Hero-page__invite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hero-page__invite__icon {
+    width: 79px;
+    height: 84px;
+}
+
+.Hero-page__invite span {
+    color: #eb5238;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 35px;
+}
+
+.Hero-page__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hero-page__content__title {
+width: 640px;
+margin: 20px auto;
+text-align: center;
+color: #0d3e60;
+font-size: 36px;
+font-weight: 700;
+}
+
+.Hero-page__content__emails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Hero-page__content__emails a {
+    text-decoration: none;
+    color: #0d3e60;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.Hero-page__content__email1, .Hero-page__content__email2 {
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #eb5238;
+    font-size: 22px;
+    font-weight: 700;
+}
+.Hero-page__content__email1 {
+    text-align: right;
+}
+.Hero-page__content__button {
+    border: none;
+    margin: 0 35px;
+    width: 91px;
+    height: 113px;
+    background: url(../img/heart.png) no-repeat center;
+}
+.Hero-page__message {
+display: flex;
+flex-direction: column;
+}
+
+.Hero-page__message-desc {
+    display: flex;
+    justify-content: center;
+    color: #0d3e60;
+    font-weight: 300;
+}
+.Hero-page__message-text {
+    background: url(../img/Scroll_background.png) no-repeat center;
+    background-size: contain;
+    text-align: center;
+    line-height: 165px;
+    color: #8d8b80;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Hero-page__illustration {
+    width: 100%;
+    height: 294px;
+    background: url(../img/header_bottom.png) no-repeat center;
+    background-size: cover;
 
 }
