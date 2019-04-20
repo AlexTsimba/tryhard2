@@ -66,14 +66,16 @@
         </section>
     </div>
     <main class="Main">
-        <div class="Main__illustration"></div>
+        <div class="Main__illustration">
+            <img src="../tryhard2/img/illustration.png" alt="#">
+        </div>
         <div class="Main__invitation-info">
             <h2>Further Information</h2>
-            <p>We, at OathJar, think it’s really important 
+            <p class="Main__invitation-info__description">We, at OathJar, think it’s really important
                 that couples have some ground rules in place a
-                s they prgress through their relationships. 
+                s they prgress through their relationships.
                 That’s why we’re dedicated to offer you a
-                 secure environment where you can establish 
+                secure environment where you can establish
                 those promises</p>
             <ul>
                 <li>Professional and secure environment</li>
@@ -81,13 +83,36 @@
                 <li>Unlimited space</li>
                 <li>Notification Reminders</li>
             </ul>
-            <div class="Main__invitaion-form">
-
+            <p class="Invitation-info__description2">We just need your name as a signature</p>
+            <div class="Invitation-info__namebox">
+                <input class="Invitaion-info__input-name" type="text" placeholder="Your name">
+                <label for="checkbox">
+                    <input class="Ivnvitation-info__input-name__checkbox" id="checkbox" type="checkbox" checked>
+                    I accept the <a class="test" href="#">OathJar TOS</a>
+                </label>
+                <div class="button-wrapper">
+                    <button class="Invitation-info__button">
+                        approve invitation
+                    </button>
+                    <span>or go to <a class="Invitation-info__homepage-link" href="#">home page </a></span>
+                </div>
             </div>
         </div>
-    
     </main>
-
 </body>
+<footer class="Footer">
+    <div class="Footer__logo-container">
+        <img src="../tryhard2/img/logo.png" alt="#">
+        <span>© OathJar, 2018</span>
+    </div>
+    <div class="Footer__menu">
+        <ul class="Footer__menu__item">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</footer>
 
 </html>
